@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+#exbtn {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  }
+
+  td {
+    vertical-align: center;
+    text-align: center;
+  
+  }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +46,6 @@
   to {
     transform: rotate(360deg);
   }
+
+  
 }

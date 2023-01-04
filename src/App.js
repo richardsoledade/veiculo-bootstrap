@@ -128,7 +128,7 @@ function App() {
                   <td>{veiculo.marca}</td>
                   <td>{veiculo.ano}</td>
                   <td>
-                    <Button onClick={()=>{excluir(veiculo.placa)}}><FaBeer /></Button>
+                    <Button id="exbtn" onClick={()=>{excluir(veiculo.placa)}}><FaBeer /></Button>
                   </td>
                 </tr>
               );
