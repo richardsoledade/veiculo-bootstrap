@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { Button, Form, InputGroup, Table } from "react-bootstrap";
 import { useState } from "react";
 import { FaBeer } from 'react-icons/fa';
